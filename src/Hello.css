@@ -1,0 +1,13 @@
+.profile{
+    width: 100px;
+    border: blueviolet solid 5px;
+    border-radius: 60%;
+}
+h1{
+    color: rgb(236, 205, 28);
+    background-color: beige;
+}
+h1:hover{
+    color:blue;
+    font-size: 50px;
+}

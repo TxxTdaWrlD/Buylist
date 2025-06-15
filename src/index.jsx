@@ -1,22 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
 //import Hello from './Hello';
-import Counter from './Counter'
-import Buylist from './Buylist'
+//import Counter from './Counter'
+//import Buylist from './Buylist'
+//import Form from './Form';
+//import Bmi from './Bmi';
+import Bookstore from './Bookstore';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/*<Hello name='Naratip' surname='Bundasak' age={18}/>
+<>
+    <React.StrictMode>
+    <Bookstore />
+    {/*<Bmi />
+    <Form/>
+    <Hello name='Naratip' surname='Bundasak' age={18}/>
     <Hello name='Naratip'/>
     <Hello surname='Bundasak'/>
     <Counter />
-    <Counter />*/}
-    <Buylist/>
-  </React.StrictMode>
+    <Counter />
+    <Buylist/>*/}
+    </React.StrictMode>
+</>
 );
 
 // If you want to start measuring performance in your app, pass a function
